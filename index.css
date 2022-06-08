@@ -66,3 +66,122 @@ ul {
   font-size: 24px;
   line-height: 24px;
 }
+
+/* ---------------Main------------------------- */
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.main__container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container__mainHead {
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 100px;
+  letter-spacing: -0.05em;
+  color: #16131d;
+}
+
+.container__mainHead--frieght {
+  font-family: "Freight";
+  font-style: italic;
+}
+
+.container__shape {
+  background: #3b87f9;
+  filter: blur(250px);
+  padding: 130px;
+  border-radius: 50%;
+  transform: rotate(-90deg);
+}
+
+.shape__item {
+  background: radial-gradient(
+    39.06% 39.06% at 50% 50%,
+    #f4f8fe 0%,
+    #ffffff 100%
+  );
+  width: 160px;
+  height: 160px;
+}
+
+/* --------------------------Construction--------- */
+
+.container__subhead {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #008bd1;
+  margin: 25px 0px;
+}
+
+.main__container--top {
+  align-items: flex-start;
+  border-bottom: 1px
+    linear-gradient(90deg, #16131d 0%, rgba(22, 19, 29, 0) 100%);
+}
+
+.container__body {
+  padding: 0px 30px;
+  border-left: 1px solid rgba(0, 139, 209, 0.8);
+}
+
+.container__text {
+  font-family: "Freight";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #16131d;
+}
+
+.button {
+  margin-top: 40px;
+  background: #16131d;
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.15);
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #3bf943;
+  padding: 19px 50px;
+}
+
+.container__image {
+  padding: 0px 100px;
+}
+
+.image__item {
+  width: 570px;
+  height: 820px;
+  background: #c4c4c4;
+}
+
+.container__brand {
+  background: #ffffff;
+  border: 1px solid rgba(22, 19, 29, 0.15);
+  box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.05);
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items:center;
+}
